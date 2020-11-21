@@ -1,3 +1,17 @@
+
+NOTE: This is a personal fork of the original. There's just a couple tweaks I
+wanted to make. Please note the lack of a LICENSE, because there isn't one in the
+original, either.
+[I've opened an issue about it](https://github.com/aaronbieber/vim-vault/issues/4),
+for what it's worth.
+
+Among the changes I've made are: removal of Vim-inbuilt encryption support
+(I'm using GnuPG--through the vim-gnupg plugin, incidentally. Plus I'm using
+Neovim, anyway, which removes it.), removal of the `'foldtext'` override (I don't
+know why it's present in the original, and I've got
+[my own solution for `'foldtext'`](https://github.com/atimholt/spiffy_foldtext),
+anyway.)
+
 Vault
 =====
 
